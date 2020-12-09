@@ -1,2 +1,5 @@
 ping [-t] [-a] [-n count] [-l length] [-f] [-i ttl] [-v tos] [-r count] [-s count] [[-j computer-list] [-w timeout]] destination-list
-nbtstat [-a RemoteName]
+nbtstat [-a RemoteName] [-A IPAddress] [-c] [-n] [-r] [-R] [-RR] [-s] [-S] [Interval]
+netstat [-a] [-e] [-n] [-s] [-p protocol] [-r] [interval]
+tracert [-d] [-h maximum_hops] [-j host_list] [-w timeout] [target_name]
+net view [\computername] [\domain[:domainname]]
