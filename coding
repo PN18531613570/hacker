@@ -1,0 +1,2 @@
+ping [-t] [-a] [-n count] [-l length] [-f] [-i ttl] [-v tos] [-r count] [-s count] [[-j computer-list] [-w timeout]] destination-list
+nbtstat [-a RemoteName]
