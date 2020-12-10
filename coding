@@ -3,3 +3,8 @@ nbtstat [-a RemoteName] [-A IPAddress] [-c] [-n] [-r] [-R] [-RR] [-s] [-S] [Inte
 netstat [-a] [-e] [-n] [-s] [-p protocol] [-r] [interval]
 tracert [-d] [-h maximum_hops] [-j host_list] [-w timeout] [target_name]
 net view [\computername] [\domain[:domainname]]
+net user [username [password |*]] [/domain]
+net share sharename=drive:path [/users:number] [/unlimited] [/remark:"text"]
+net use <驱动器查符>:\\IP地址\sharename
+net start servername
+net stop service
