@@ -8,3 +8,5 @@ net share sharename=drive:path [/users:number] [/unlimited] [/remark:"text"]
 net use <驱动器查符>:\\IP地址\sharename
 net start servername
 net stop service
+at time command\computer
+ftp [-d] [-g] [-n] [-v][主机名]
